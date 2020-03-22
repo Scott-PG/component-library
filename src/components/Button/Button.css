@@ -1,0 +1,139 @@
+button {
+  border-radius: 4px;
+  padding: 14px 26px;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 14;
+  font-weight: 500;
+  background-color: #22262a;
+  color: white;
+  border: solid 2px #22262a;
+}
+
+button:hover {
+  background-color: #13161a;
+  color: white;
+  cursor: pointer;
+  border-color: #13161a;
+}
+
+.btn-large {
+  padding: 21px 36.5px;
+}
+
+.btn-square {
+  padding: 0;
+  width: 46px;
+  height: 46px;
+}
+
+.btn-wireframe {
+  border-color: #22262a;
+  background-color: white;
+  color: #22262a;
+}
+
+.btn-faded {
+  border-color: #f6f7f8;
+  background-color: #f6f7f8;
+  color: #22262a;
+}
+
+.btn-primary {
+  background-color: #33a0ff;
+  border-color: #33a0ff;
+}
+
+.btn-primary:hover,
+.btn-primary-wireframe:hover,
+.btn-primary-faded:hover {
+  background-color: #2e90e5;
+  color: white;
+  border-color: #2e90e5;
+}
+
+.btn-primary-wireframe {
+  border-color: #33a0ff;
+  background-color: white;
+  color: #33a0ff;
+}
+
+.btn-primary-faded {
+  border-color: #33a0ff00;
+  background-color: #33a0ff1a;
+  color: #33a0ff;
+}
+
+.btn-danger {
+  background-color: #ff4858;
+  border-color: #ff4858;
+}
+
+.btn-danger:hover,
+.btn-danger-wireframe:hover,
+.btn-danger-faded:hover {
+  background-color: #f53848;
+  color: white;
+  border-color: #f53848;
+}
+
+.btn-danger-wireframe {
+  border: solid 2px #ff4858;
+  background-color: white;
+  color: #ff4858;
+}
+
+.btn-danger-faded {
+  border: solid 2px #ff485800;
+  background-color: #ff48581a;
+  color: #ff4858;
+}
+
+.btn-success {
+  background-color: #0ad00a;
+  border-color: #0ad00a;
+}
+
+.btn-success:hover,
+.btn-success-wireframe:hover,
+.btn-success-faded:hover {
+  background-color: #07c107;
+  color: white;
+  border-color: #07c107;
+}
+
+.btn-success-wireframe {
+  border: solid 2px #0ad00a;
+  background-color: white;
+  color: #0ad00a;
+}
+
+.btn-success-faded {
+  border: solid 2px #0ad00a00;
+  background-color: #0ad00a1a;
+  color: #0ad00a;
+}
+
+.btn-warning {
+  background-color: #ffc600;
+  border-color: #ffc600;
+}
+
+.btn-warning:hover,
+.btn-warning-wireframe:hover,
+.btn-warning-faded:hover {
+  background-color: #ebb600;
+  color: white;
+  border-color: #ebb600;
+}
+
+.btn-warning-wireframe {
+  border: solid 2px #ffc600;
+  background-color: white;
+  color: #ffc600;
+}
+
+.btn-warning-faded {
+  border: solid 2px #ffc60000;
+  background-color: #ffc6001a;
+  color: #ffc600;
+}

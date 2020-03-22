@@ -1,0 +1,22 @@
+.counter {
+  display: flex;
+  justify-content: space-between;
+  max-width: 116px;
+  max-height: 46px;
+  padding: 0;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f6f7f8;
+  color: #22262a;
+}
+
+.counter button {
+  border-color: #f6f7f8;
+  border: 0;
+  background-color: #f6f7f8;
+  color: #33a0ff;
+  padding: 0;
+  width: 40px;
+  font-size: 20px;
+}
