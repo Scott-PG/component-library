@@ -1,0 +1,95 @@
+.ck-container {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+}
+.ck-container input {
+  position: absolute;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+  height: 18px;
+  width: 18px;
+  background-color: white;
+  border: 2px solid #22262a;
+}
+.ck-container input:checked ~ .checkmark {
+  background-color: #22262a;
+}
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.ck-container input:checked ~ .checkmark::after {
+  display: block;
+}
+.ck-container .checkmark::after {
+  left: 5px;
+  top: 3px;
+  height: 7px;
+  width: 4px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.ck-container-blue {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+}
+.ck-container-blue input {
+  position: absolute;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+.checkmark-blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: white;
+  border: 2px solid #33a0ff;
+  border-radius: 2px;
+}
+.ck-container-blue input:checked ~ .checkmark-blue {
+  background-color: #33a0ff;
+}
+.checkmark-blue::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.ck-container-blue input:checked ~ .checkmark-blue::after {
+  display: block;
+}
+.ck-container-blue .checkmark-blue::after {
+  left: 5px;
+  top: 3px;
+  height: 7px;
+  width: 4px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
