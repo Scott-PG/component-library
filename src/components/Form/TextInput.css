@@ -1,0 +1,31 @@
+label {
+  display: block;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.text-input-small {
+  padding: 3px 10px;
+  width: 300px;
+  height: 38px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 2px solid #f1f3f4;
+}
+.text-input-medium {
+  padding: 3px 10px;
+  width: 300px;
+  height: 46px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 2px solid #f1f3f4;
+}
+.text-input-large {
+  padding: 3px 10px;
+  width: 300px;
+  height: 60px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 2px solid #f1f3f4;
+}

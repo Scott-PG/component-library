@@ -1,0 +1,32 @@
+select {
+  padding: 0 10px;
+}
+
+.s-filled {
+  background-color: #fafafb;
+  border: solid 2px #fafafb;
+}
+
+.s-outline {
+  background-color: white;
+  border: solid 2px #f1f3f4;
+}
+
+.s-small {
+  width: 200px;
+  height: 38px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.s-medium {
+  width: 300px;
+  height: 46px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.s-large {
+  width: 300px;
+  height: 60px;
+  font-size: 14px;
+  border-radius: 4px;
+}
