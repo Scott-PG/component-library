@@ -3,8 +3,9 @@
 }
 
 .input-button {
-  position: absolute;
-  right: 160px;
+  position: relative;
+  right: 120px;
+  top: -2px;
   border-radius: 0 4px 4px 0;
   font-family: "Proxima Nova", sans-serif;
   font-size: 14;
